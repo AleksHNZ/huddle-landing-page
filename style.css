@@ -1,0 +1,296 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background: url(./images/bg-hero-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-family: 'Open Sans', sans-serif;
+    background-color: hsl(193, 100%, 96%);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.wrapper {
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 2rem;
+
+}
+
+
+/* Start of the first page */
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 3rem 3rem;
+}
+
+.header a {
+    display: inline-block;
+    text-decoration: none;
+    width: 190px;
+    height: 44px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0 8px 17px -8px rgb(0 0 0 / 80%);
+    color: hsl(192, 100%, 9%);
+    text-align: center;
+    padding-top: 9px;
+    font-weight: 900;
+    transition: all .3s ease;
+}
+
+.header a:hover {
+    opacity: 0.7;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 40px;
+    margin: 0 2rem 0 2rem;
+}
+
+.left-main
+ {
+    width: 40%;
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.left-main h1 {
+    font-size: 43px;
+    font-weight: 900;
+    padding-bottom: 2rem;
+}
+
+.left-main p {
+    font-size: 17px;
+}
+
+.left-main a {
+    margin-top: 2rem;
+    display: inline-block;
+    text-decoration: none;
+    width: 230px;
+    height: 50px;
+    background-color: hsl(322, 100%, 66%);
+    border-radius: 30px;
+    box-shadow: 0 8px 17px -8px rgb(0 0 0 / 80%);
+    color: white;
+    text-align: center;
+    padding-top: 14px;
+    font-weight: 900;
+    font-size: 14px;
+    transition: all .3s ease;
+}
+
+.left-main a:hover {
+    opacity: 0.6 ;
+}
+
+/* Start of the second section */
+
+.second-section {
+    background-color: #fff;
+    margin: 6rem auto;
+}
+
+/* First block */
+
+.first-block {
+    border-radius: 15px;
+    box-shadow: 0 8px 17px -8px rgb(0 0 0 / 80%);
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    position: relative;
+    margin: 5rem 5rem;
+}
+
+.left1 {
+    padding: 7rem 5rem;
+    width: 60%;
+}
+
+.left1 h1 {
+    padding-bottom: 20px;
+    color: hsl(192, 100%, 9%);
+}
+
+.left1 p {
+    color: hsl(208, 11%, 55%);
+}
+
+/* Second block */
+
+.second-block {
+    border-radius: 15px;
+    box-shadow: 0 8px 17px -8px rgb(0 0 0 / 80%);
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    position: relative;
+    margin: 5rem 5rem;
+}
+
+.left2 {
+    padding: 7rem 5rem;
+    width: 60%;
+}
+
+.left2 h1 {
+    padding-bottom: 20px;
+    color: hsl(192, 100%, 9%);
+}
+
+.left2 p {
+    color: hsl(208, 11%, 55%);
+}
+
+/* Third block */
+
+.third-block {
+    border-radius: 15px;
+    box-shadow: 0 8px 17px -8px rgb(0 0 0 / 80%);
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    position: relative;
+    margin: 5rem 5rem;
+}
+
+.left3 {
+    padding: 7rem 5rem;
+    width: 60%;
+}
+
+.left3 h1 {
+    padding-bottom: 20px;
+    color: hsl(192, 100%, 9%);
+}
+
+.left3 p {
+    color: hsl(208, 11%, 55%);
+}
+
+/*Start of the fourth block */
+
+.fourth-block {
+    border-radius: 15px;
+    box-shadow: 0 8px 17px -8px rgb(0 0 0 / 80%);
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    width: 59%;
+    height: 30%;
+    text-align: center;
+    margin: 4rem auto;
+}
+
+.fourth-block h1 {
+    padding-bottom: 5px;
+    color: hsl(192, 100%, 9%);
+    font-size: 32px;
+}
+
+.fourth-block a {
+    margin: 2rem  auto 0 auto;
+    display: inline-block;
+    text-decoration: none;
+    width: 350px;
+    height: 60px;
+    background-color: hsl(322, 100%, 66%);
+    border-radius: 30px;
+    box-shadow: 0 8px 17px -8px rgb(0 0 0 / 80%);
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 900;
+    font-size: 14px;
+    transition: all .3s ease;
+}
+
+.fourth-block a:hover {
+    opacity: 0.6;
+}
+
+/* Start of the footer */
+.footer {
+    background-color:  hsl(192, 100%, 9%);
+    display: flex;
+    color: hsl(193, 100%, 96%);
+    padding: 4rem 3rem 0 4rem;
+    position: relative;
+}
+
+.location, .phone, .mail {
+    display: flex;
+    flex-direction: row;
+}
+
+.location p, .phone p, .mail p {
+    padding-left: 1rem;
+    padding-bottom: 2rem;
+}
+
+.footer-logo {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.location p {
+    width: 50%;
+}
+
+.first-center {
+    position: absolute;
+    top: 25%;
+    left: 47%;
+}
+
+.first-center p {
+    padding-bottom: 1rem;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+
+.first-center p:hover {
+    text-decoration: underline;
+}
+
+.second-center p {
+    padding-bottom: 1rem;
+    cursor: pointer;
+}
+
+.second-center p:hover {
+    text-decoration: underline;
+}
+
+.right {
+    position: absolute;
+    top: 80%;
+    left: 80%;
+}
+
+/* В принципе работа закончена, но осталась мобилка
+Да только мобилка */
